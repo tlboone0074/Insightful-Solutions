@@ -1,0 +1,1052 @@
+
+
+body, html {
+    margin: 0;    
+}
+
+
+/* large first image */
+#home-section{
+    background-image: url(images/bannerimg.png); 
+    width: 100%;
+    height: 100vh;
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+/* reference second image(insightful solutions image) */
+.pimg2 {
+    background-image: url(images/school-img.jpg);  
+    min-height: 650px;
+    position: relative;
+    /* opacity: 0.70; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 50px;
+    z-index: 1;
+
+  }
+
+  
+  /* reference photo of school */
+.pimg3 {
+    background-image: url(images/school-img.jpg);  
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 450px;
+}
+
+/* reference slogan at top left */
+#home-section p {
+    position: relative;
+    top: 10px;
+    left: 5px;
+    padding: 15px 0 0 20px;    
+    font-style: italic;
+    color:darkmagenta;
+    font-size: 1.4rem;    
+}
+
+/*------   main header logo   -------*/
+#home-section img {
+    margin: -4% 0 0 35%; 
+    border: none;   
+}
+
+
+/*--------   targets the social media icons   -----------*/
+.icon-section {  
+    position: absolute;
+    top: 155px;
+    right: 180px;   
+}
+
+
+.icon-section, a {  
+    color: darkmagenta;
+    font-size: 26px;
+    padding: 0 10px 0 0;
+    display: flex;      
+    text-decoration: none;
+   }
+
+   .icon-section, a:hover {  
+    border-radius: 30%;   
+    padding: 0 10px 0 0;
+    display: flex;      
+    color: fuchsia;
+   }
+
+    /* contact button at top of main screen */
+.contact-button {
+    width: 120px;
+    height: 20px;
+    display: inline-block;   
+    position: absolute;
+    top: 175px;
+    right: 180px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-button a{
+    background: lightcoral;
+    margin-top: 10px;
+    padding: 3px 10px;
+    color: white;    
+    font-weight: bold;
+    border-radius: 15px;    
+    font-size: 16px;
+
+}
+
+.contact-button a:hover{
+    color: darkmagenta;
+    font-weight: bold;
+    transition: 0.9s;
+}
+
+ /*---------------    navigation menu  -------------- */    
+ .ptext .navbar {
+    background-color: darkmagenta;
+    border: 3px solid fuchsia;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 75px;
+    left: 40px;        
+}
+
+.navbar li {
+    display: inline-block;
+    list-style: none;
+    color: white;
+    }
+
+.navbar li:hover {
+    background: fuchsia;
+    font-weight: bold;
+
+}
+
+.ptext .navbar li a {
+    color: white;  
+    display: block;    
+    transition: 0.4s;
+    font-size: 18px;
+    font-family: Arial;
+    padding: 10px;
+}
+
+.ptext .navbar li a:hover {
+    transition: 0.6s;
+    color: white;
+}
+
+/* hides hamburger menu components on large screens */
+.sidebar {
+visibility: hidden;
+}
+
+
+/* reference logo title in top left corner */
+#home-section h4{   
+    width: 40%;
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+    padding-top: 4.5rem;
+    padding-left: 2rem;
+    font-size: 1.6rem; 
+    margin-left: 15px;
+    margin-right: 200px;
+}
+
+/*======== navigation menu in top right cornerr  ==============*/
+ .navbar {
+    float: right;
+    margin-right: 2%;
+    margin-top: -4%;
+}
+
+
+.navbar li {
+    display: inline-block;
+    list-style: none;
+    color: white;
+    }
+
+.navbar li a {
+    color: darkmagenta;
+    display: block;    
+    transition: 0.4s;
+    font-size: 26px;
+    font-family: Arial;
+    font-weight: bold;
+    padding: 0 10px 0 0;
+    display: flex;      
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    color: #ff00ff;
+}
+
+  /* hides hamburger menu components on large screens */
+  .sidebar {
+      visibility: hidden;
+  }
+
+.home-container {
+    color: white;
+    text-align: center;
+    padding-top: 260px;
+    font-size: 60px;
+}
+
+
+ /*================================================     about section    ================================================
+ ================================================================================================================
+ ============================================================================================================
+ ==================================================================================================================*/
+
+#about-section {
+    background-image: url(images/imgTwo.jpg);
+    z-index: 2;
+    min-height: 420px;
+    position: relative;
+    /* opacity: 0.70; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    /* height:55%; */
+    text-align: center;
+    color: black;
+    /* background-color: white; */
+    padding-bottom: 6%;
+    padding-top: 50px;
+}
+
+.about-title {
+    text-decoration: underline;
+    color: purple;
+    padding-left: 10px;
+    margin-top: -25px;
+    float: left;
+    /* position: absolute;
+    left: 45%;
+    top: 0;    */
+    /* margin: 0 auto; */
+}
+
+.highlight {
+    font-family: Gabriola;
+    color: purple;
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;  
+}
+/* 
+
+#about-section {
+    display: flex;
+} */
+
+#about-section .about-content {
+    width: 70%;
+    font-size: 18px;
+    font-family: Optima, sans-serif;
+    text-align: left;
+    /* padding-left: 3%; */
+    padding: 1%;
+    margin-left: 3%;
+    /* padding-top: 1%;
+    padding-right: 2%; */
+    /* padding-bottom: 5px; */
+    letter-spacing: 3px;
+    background-color: white;
+    color: black;
+    border: 1px solid darkmagenta;
+    margin-top: 0.7rem;
+    /* z-index: -4; */
+    opacity: 1;
+}
+
+
+/* image of docgtor */
+.about-img img {
+    /* margin: auto; */
+    padding-top: 2%;
+    /* padding-left: 40%; */
+    display: block;
+    height: 400px;
+    z-index: 2;
+    float: right;
+    margin-right: 4%;
+    margin-top: -28%;
+}
+
+/*=======================================    About Section Two ==========================================
+===================================================================================================
+==================================================================================================*/
+
+
+.about-content-two {
+    margin-top: 55px;
+}
+
+.about-content-two p {
+        /* text-align: center; */
+        width:70%;
+        padding: 15px;
+        font-family: Optima, sans-serif;
+        /* font-weight: bold; */
+        text-align: left;
+        letter-spacing: 3px;
+        line-height: 1.5rem;
+        color: black;
+        background-color: white;
+        border: 1px solid darkmagenta;
+        /* padding: 15px; */
+        margin-left: 2%;
+        /* margin-top: 4%; */
+        margin: 0 auto;
+}
+
+.margin-space {
+    padding: 15px;
+}
+
+.about-content-three {
+    margin-top: 20px;
+}
+
+
+.about-content-three p {
+    /* text-align: center; */
+    width:70%;
+    font-family: Optima, sans-serif;
+    text-align: left;
+    letter-spacing: 3px;
+    line-height: 1.5rem;
+    color: black;
+    background-color: white;
+    border: 1px solid darkmagenta;
+    padding: 15px;
+    margin-left: 2%;
+    /* margin-top: 4%; */
+    margin: 0 auto;
+}
+
+/*===================================      services section   ===============================================
+============================================================================================================
+============================================================================================================*/
+
+#services-section {
+    background-image: url(images/groupcounseling.jpg);
+    z-index: 2;
+    min-height: 420px;
+    position: relative;
+    /* opacity: 0.70; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    /* height:55%; */
+    text-align: center;
+    color: black;
+    /* background-color: white; */
+    padding-bottom: 6%;
+    padding-top: 50px;
+}
+/* 
+#services-section {
+    height: 80%;
+    padding-bottom: 20px;
+} */
+
+   
+#services-section h3{
+    text-decoration: underline;
+    color: purple;
+    padding-left: 10px;
+    margin-top: -25px;
+    float: left;
+    font-size: 24px;
+    /* position: absolute;
+    left: 45%;
+    top: 0;    */
+    /* margin: 0 auto; */
+}
+
+.services-container {
+    display: flex;
+    width: 100%;
+    margin: 0 auto 0 20px;
+    justify-content: space-between;
+    /* align-items: flex-end; */
+}
+
+.svcsbox-one {
+    border: 3px solid darkmagenta;
+    background-color: white;
+    z-index: 1;
+    width: 30%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: left;
+    
+    /* width: 28%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 3%; */
+    font-size: 24px;
+    font-family: Optima, sans-serif;
+}
+
+.svcsbox-two {
+    width: 30%;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 3px solid darkmagenta;
+    background-color: white;
+    z-index: 1;
+    font-size: 24px;
+    line-height: 2rem;
+    text-align: left;
+}
+
+.svcsbox-three {
+    width: 30%;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 3px solid darkmagenta;
+    background-color: white;
+    margin-right: 3%;
+    z-index: 1;
+    font-size: 24px;
+    line-height: 2.3rem;
+    text-align: left;
+
+}
+
+
+
+/*=================================     Contact Section    ================================================
+==========================================================================================================
+============================================================================================================*/
+
+#contact-section {
+    height: 80%;
+    padding-bottom: 20px;
+}
+
+
+#contact-section h3 {
+    color: purple;
+    text-decoration: underline;
+    padding-left: 10px;
+    font-size: 22px;
+}
+
+.contact-container {
+    display: flex;
+    width: 100%;
+    margin: 0 auto 0 auto;
+    justify-content: space-between;
+}
+
+.box-one {
+    border: 1px solid darkmagenta;
+    background-color: white;
+    z-index: 1;
+    width: 28%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 3%;
+    font-size: 24px;
+    font-family: Optima, sans-serif;
+}
+
+.box-one p {
+    line-height: 1.7rem;
+}
+
+.contact-email  {
+    font-size: 22px;
+    font-style: italic;
+}
+
+.contact-email p {
+    margin-top: -15px;
+}
+
+.box-one h6 {
+    font-weight: normal;
+    font-size: 18px;
+    margin-top: -15px;
+}
+
+.phone-number {
+    color: darkmagenta;
+    font-family: Gabriola;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.address h5 {
+    line-height: 1rem;
+    font-weight: normal;
+    margin-top: -15px;
+}
+
+
+/*------------------------    reference contact form   ---------------*/
+
+.box-two {
+    margin-right: 16%;
+    z-index: 1;
+
+}
+
+.quote {    
+    color: #ffffff;
+    background-color: darkmagenta;    
+    width: 180%;
+    height: 435px;
+    padding: 10px 0 0 10px;
+    display: block;
+
+}
+
+.quote h7 {
+    text-align: center;
+    display: block;
+    color: white;
+    font-weight: bold;
+}
+
+/*--------------reference the text and text area  --------------*/
+.quote input, .quote textarea {
+    display: block;
+    width: 90%;
+    padding: 5px;    
+}
+
+.btn-send {
+    color: #ffffff;
+    background-color: darkmagenta;
+    display: block;
+    width: 93%;
+    text-transform: uppercase;
+    padding: 10px;    
+}
+
+/*----- reference location map ------*/
+.box-three {
+    margin-right: 3%;
+    z-index: 1;
+
+}
+
+.box-three iframe {
+    width: 360px;
+    height: 320px;
+}
+
+/*-===================================     footer section    ================================================
+============================================================================================================
+=============================================================================================================
+==========================================================================================================*/
+
+
+footer  {
+    width: 100%;
+    height: 200px;
+    position: fixed;
+    bottom: 0;
+    z-index: -1;
+    color: #ffffff;
+    opacity: 0.8;
+    background-color: darkslateblue;
+    font-size: 18px;
+    padding-bottom: 10px;
+
+}
+
+.footer-wrapper {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.single-footer {
+    width: 33%;
+    float: left;
+    color: #fff;    
+} 
+
+.single-footer a {
+    font-size: 32px;
+    color: fuchsia;
+}
+
+
+.single-footer a:hover {  
+    padding: 0 10px 0 0;
+    color: #4B0082;
+   }
+
+.single-footer ul {
+    margin: 0;
+    margin-top: -15px;
+    padding: 0;
+    list-style: none;   
+}
+
+.single-footer ul a {       
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+}
+
+/* social media icons in footer */
+.single-footer a {
+    display: inline-block;
+}
+
+.single-footer p {
+    width: 70%;
+    font-weight: bold;
+    margin-top: -8px;
+}
+
+.single-footer h2 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align:left;
+}
+
+
+
+.footer-wrapper .icon-section {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.developer p {
+    margin-top: 35px;
+    padding-bottom: 10px;
+}
+ 
+/*  -------------------------------------------------end of footer  ----------------------------------*/
+
+
+/*    ------------------------------------------------------------Media Queries   ----------------------------------------------
+    ----------------------------------------------------------------------------------------------------------------------------
+    -------------------------------------------------------------------------------------------------------------------------*/
+    
+   /* ---- mobile devices   ---------------*/
+@media screen and (max-width: 650px) {
+
+    #home-section {
+        margin-left: 10px;
+        background-attachment: scroll;
+    }
+    
+    #home-section h4 {
+        font-size: 1rem;
+    }
+
+    
+    .home-container h1 {
+        font-size: 1.5rem;
+        margin-top: -55%;        
+    }
+
+    #home-section img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        margin: 0 0 0 11%; 
+        padding-top: 10%;
+    }
+
+    #contact-section {
+        padding-top: 30px;
+    }
+
+}
+
+
+/*-----   reference mobile devices   -----*/
+@media all and (max-width: 1115px) {
+
+    nav {
+        visibility: hidden;
+    }
+
+    #home-section p, .icon-section, .contact-button {
+        display: none;
+    }
+
+    #home-section img {
+        margin: 1% 0 0 11%; 
+
+    }
+
+    /* * -----------------------------------   HAMBURGER MENU BEGINS  --------------------------------*/
+
+    .sidebar {
+        visibility: visible;
+        position: fixed;
+        top: 45px;
+        right: -200px;
+        background: darkmagenta;
+        width: 250px;
+        height: 100%;
+        transition: .3s;
+        z-index: 3;
+        margin-right: -50px;
+    }
+
+    .pro {
+        background: url(./images/selfimg.png);
+        background-size: cover;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin: auto;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 1rem;
+        color: #fff;
+    }
+
+    .sidebar ul {
+        margin: 0;
+        padding: 20px 0;
+    }
+
+    .sidebar li {
+        list-style: none;
+    }
+
+    .sidebar a {
+        padding: 10px 20px;
+        color: #fff;
+        display: block;
+        text-decoration: none;
+        border-bottom: 1px solid rgba(0, 0, 0.2);
+        font-size: 22px;
+    }
+
+    .sidebar a:hover {
+        background: fuchsia;
+    }
+
+    .sidebar-Btn {
+        position: absolute;
+        top: 10px;
+        left: -95px;
+        width: 50px;
+        height: 50px;
+        box-sizing: border-box;
+        cursor: pointer;
+        background: none;
+        border: none;
+        outline: none;
+    }
+
+    .sidebar-Btn span {
+        display: block;
+        width: 35px;
+        height: 5px;
+        background: darkmagenta;
+        position: absolute;
+        top: 24px;
+        transition: .3s;
+    }
+
+    .sidebar-Btn span:before {
+        content: '';
+        width: 100%;
+        height: 5px;
+        background: darkmagenta;
+        position: absolute;
+        top: -10px;
+        right: 0;
+        transform: .3s;
+    }
+
+    .sidebar-Btn span:after {
+        content: '';
+        width: 100%;
+        height: 5px;
+        background: darkmagenta;
+        position: absolute;
+        top: 10px;
+        right: 0;
+        transform: .3s;
+    }
+
+    .active {
+        right: 50px;
+    }
+
+    .sidebar-Btn.toggle span {
+        background: transparent;
+    }
+
+    .sidebar-Btn.toggle span:before {
+        top: 0;
+        transform: rotate(-45deg);
+    }
+
+    .sidebar-Btn.toggle span:after {
+        top: 0;
+        transform: rotate(45deg);
+    }
+
+    /*  ------------------------------------------------------- end of the hamburger  menu   ---------------------------------------------- */
+
+
+
+
+    #home-section,
+    .navbar,
+    .navbar li,
+    .home-container,
+    .highlight,
+    #about-section,
+    #contact-section h3,
+    .contact-container,
+    .contact-email,
+    .contact-email p,
+    .box-one h6,
+    .phone-number,
+    .address h5,
+    .box-two,
+    .btn-send,
+    .box-three,
+    .box-three iframe,
+    footer,
+    .footer-wrapper,
+    .single-footer ul,
+    .single-footer h2,
+    .single-footer p {
+        list-style: none;
+        float: none;
+        text-align: center;
+        width: 100%;
+        display: block;
+    }
+
+
+    .pimg2
+     {
+        /* background-attachment: scroll; */
+        background-image: none;
+        list-style: none;
+        float: none;
+        text-align: center;
+        width: 100%;       
+    }
+
+    .pimg3 {
+        /* background-attachment: scroll; */
+        list-style: none;
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+/* 
+    #about-section {
+        background-attachment: scroll;
+    } */
+
+    .about-title {
+        font-size: 20px;
+    }
+    
+
+    #about-section .about-content {
+        width: 95%;
+        margin-left: 5px;
+        /* padding-left: 15px; */
+    }
+
+
+    .quote {
+        width: 95%;
+        margin-left: 10px;
+        margin-top: 12%;
+    }
+
+    /* image of doctor */
+    .about-img img {
+        display: none;
+        padding-bottom: 80px;       
+        margin-bottom: 55px;
+        margin-left: -20%;
+        width: 60%;
+        height: 450px;
+        z-index: 2;
+    }
+
+    .about-content-two, .about-content-three {
+        display: block;
+        list-style: none;
+        float: none;
+        text-align: center;
+        width: 98%;
+        margin-top: 15px;
+        padding-top: 15px;
+    }
+
+    #services-section, .services-container,
+    .svcsbox-one, .svcsbox-two, .svcsbox-three {
+        display: block;
+        width: 98%;
+        list-style: none;
+        margin: 10px;
+        /* padding: 10px; */
+    }
+
+    /* reference second part of about section */
+    .pimg2 p {
+        width: 95%;
+        margin-top: -5%;
+
+    }
+
+    .box-one {
+        margin: 5px auto;
+        width: 95%;
+    }
+
+    #contact-section { 
+        margin-top:2%;
+    }   
+
+    .box-three iframe {
+        width: 95%;
+        padding: 10px;
+        height: 450px;
+        margin-top: 7%;
+    }
+
+    footer {
+        position: inherit;
+        width: 95%;
+        padding: 20px 25px 110px 0;
+        height: 55%;
+        margin-left: 10px;
+        margin-bottom: 10%;
+    }
+
+    .single-footer {
+        list-style: none;
+        float: none;
+        text-align: center;
+        width: 100%;
+        display: block;
+        padding-top: 20px;
+    }
+}
+
+/*===========================    target tablets to laptop sizes     ==================================
+======================================================================================================
+=======================================================================================================
+========================================================================================================
+=======================================================================================================*/
+
+@media(min-width: 768px) and (max-width: 1370px) {
+
+    .ptext .navbar {
+        background-color: darkmagenta;
+        border: 3px solid fuchsia;
+        padding: 10px 0;
+        width: 100%;
+        text-align: center;
+        position: relative;
+        top: 120px;
+        left: 40px;        
+    }
+
+    .contact-container {
+        display: block;
+    }
+
+    .quote,
+    .box-two,
+    .box-three iframe {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .box-one {
+        width: 88%;
+    }
+
+    .navbar {
+        float: right;
+        margin-right: 2%;
+        margin-top: -8%;
+    }
+
+}
+
+
+@media(min-width: 1371px) and (max-width: 1649px) {
+.ptext navbar {
+    top: 80px;
+}
+}
+
+
+
+/* target large size screens */
+@media(min-width: 1650px) and (max-width: 2000px) {
+
+.ptext .navbar {
+    background-color: darkmagenta;
+    border: 3px solid fuchsia;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 120px;
+    left: 40px;        
+}
+
+
+/* image of docgtor */
+.about-img img {
+    /* margin: auto; */
+    padding-top: 2%;
+    /* padding-left: 40%; */
+    display: block;
+    height: 400px;
+    z-index: 2;
+    float: right;
+    margin-right: 4%;
+    margin-top: -23%;
+}
+
+}
